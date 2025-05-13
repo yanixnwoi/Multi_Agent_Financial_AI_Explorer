@@ -87,4 +87,8 @@ Using this project is like having two **expert assistants** on your team:
 2. Another that’s a **finance guru**, helping you make sense of markets and investments.  
 
 
+# Demo 📽
 
+Below is a demonstration of how the application works:
+
+![Demo of the Application](https://github.com/Abdelrahman-Amen/Multi_Agent_Financial_AI_Explorer/blob/main/Demo.gif)
