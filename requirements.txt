@@ -1,0 +1,11 @@
+pandas
+tantivy
+agno
+groq
+python-dotenv
+duckduckgo-search
+pypdf
+yfinance
+uvicorn
+sqlalchemy 
+fastapi[standard]
