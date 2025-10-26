@@ -1,94 +1,103 @@
-# Multi-Agent Financial AI Analyst 💹🤖
+# Multi-Agent Financial AI Explorer 🧠💰
 
-## 🌐 **What is Agentic AI?** 🤔  
-![Image](https://github.com/user-attachments/assets/36331616-407a-4da9-8013-18955fedea9e)
+Welcome to the **Multi-Agent Financial AI Explorer** repository! This project harnesses the power of Agno's framework to create a multi-agent AI system that integrates web search and financial analysis tools. With our user-friendly GUI-based Playground App, users can gain interactive insights into financial data.
 
-Agentic AI represents the next leap in artificial intelligence! Imagine systems that don’t just passively analyze data but **actively engage with tasks**, leveraging specialized tools and reasoning to achieve specific goals autonomously.  
-An **agent** in this context is:  
-- A **self-contained unit** of intelligence.  
-- **Purpose-driven**, designed for a specific role or task.  
-- Equipped with **tools**, access to **APIs**, and backed by **powerful AI models** to make decisions and execute actions.  
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-blue?style=for-the-badge&logo=github)](https://github.com/yanixnwoi/Multi_Agent_Financial_AI_Explorer/releases)
 
-In short, **Agentic AI** brings us closer to creating systems that feel more like problem-solving companions than static programs.  
+## Table of Contents
 
----
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## 🤖 **Agents in This Project**  
+## Introduction
 
-Let me walk you through the **two key agents** that form the backbone of this project:  
+The **Multi-Agent Financial AI Explorer** aims to simplify the way users interact with financial data. By utilizing multiple agents, this system can perform complex tasks like web searches and data analysis concurrently. This makes it an invaluable tool for anyone looking to explore financial markets or conduct research.
 
-### 🌍 **Internet Search Specialist**  
-This agent is your ultimate web search partner!  
-- **Purpose**: Find and summarize online information with precision.  
-- **Capabilities**:  
-  - Leverages **DuckDuckGo** tools for intelligent web search.  
-  - Ensures every response comes with **source citations**, so you always know where the information is from.  
-  - Can remember the context of up to **5 past interactions**, making it feel natural and continuous in conversations.  
+## Features
 
-### 💰 **Finance Agent**  
-Money talks, and so does this agent!  
-- **Purpose**: Provide insights into stocks, company fundamentals, and financial trends.  
-- **Capabilities**:  
-  - Uses **Yahoo Finance Tools** to fetch real-time stock prices, analyst recommendations, and detailed financial metrics.  
-  - Formats its findings in **beautiful tables**, making complex data digestible at a glance.  
+- **Multi-Agent System**: Leverage the power of multiple agents to perform tasks simultaneously.
+- **Web Search Integration**: Utilize DuckDuckGo for web searches to gather relevant financial data.
+- **Financial Analysis Tools**: Access tools for analyzing stock data using the yFinance library.
+- **User-Friendly GUI**: Navigate easily through the Playground App for an interactive experience.
+- **Real-Time Insights**: Get up-to-date financial information and insights.
+- **Customizable Settings**: Adjust settings to fit your specific needs.
 
-These agents don’t just work solo—they’re designed to collaborate!  
+## Installation
 
----
+To get started, you need to clone this repository and set up your environment.
 
-## 🎯 **Why Did I Build This?**  
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yanixnwoi/Multi_Agent_Financial_AI_Explorer.git
+   cd Multi_Agent_Financial_AI_Explorer
+   ```
 
-Here’s what inspired this project:  
-1. **To explore Agentic AI**: I wanted to dive deep into creating autonomous agents capable of performing real-world tasks.  
-2. **Seamless interaction**: The project is an attempt to create a simple and interactive playground where users can see these agents in action.  
-3. **Practicality**: From retrieving accurate web info to analyzing financial data, these agents tackle practical use cases with flair.  
+2. **Install dependencies**:
+   Create a `.env` file in the root directory and add your API keys and other environment variables. You can find a sample `.env.example` in the repository.
 
----
+   Then, install the required Python packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## 🚀 **The Playground**  
+3. **Run the application**:
+   Launch the Playground App using:
+   ```bash
+   python app.py
+   ```
 
-The **Playground** is where all the magic happens. 🎩✨  
+## Usage
 
-Think of it as the **control center** where users can interact with:  
-- The **Internet Search Specialist** for all things web.  
-- The **Finance Agent** for market and business insights.  
+Once you have the application running, you can start exploring:
 
-### Why is the Playground Cool? 😎  
-- It uses **Agno APIs** to power everything under the hood.  
-- It’s designed to showcase **transparency** by showing tool calls in real time.  
-- The entire system is modular—making it easy to extend or integrate with new tools and models.  
+1. **Navigate the GUI**: Use the user interface to select different financial tools and agents.
+2. **Perform Searches**: Input your queries to utilize the web search feature.
+3. **Analyze Data**: Use the financial analysis tools to gain insights into stock performance.
 
----
+For a detailed guide on using the Playground App, please refer to the [documentation](https://github.com/yanixnwoi/Multi_Agent_Financial_AI_Explorer/releases).
 
-## 🔑 **How It Works**  
+## Technologies
 
-Here’s the step-by-step breakdown of the system:  
+This project utilizes several technologies and libraries:
 
-1. **API Keys**:  
-   - The project uses environment variables (`GROQ_API_KEY` and `AGNO_API_KEY`) for authentication, ensuring your keys stay secure.  
+- **Agno's Framework**: The backbone of our multi-agent system.
+- **DuckDuckGo API**: For web searches.
+- **yFinance**: To fetch financial data.
+- **Python**: The primary programming language.
+- **Groq**: For advanced data queries.
+- **GUI Framework**: For building the user interface.
 
-2. **Agents**:  
-   - Each agent is defined with a specific role, equipped with tools, and designed to perform tasks efficiently.  
+## Contributing
 
-3. **Combined Agent Team**:  
-   - A super-agent that combines the capabilities of both the Internet Search Specialist and the Finance Agent to handle more complex requests.  
+We welcome contributions! If you have ideas for improvements or new features, please follow these steps:
 
-4. **Playground App**:  
-   - interactive GUI-based Playground App powered by the Agno framework.
+1. Fork the repository.
+2. Create a new branch for your feature.
+3. Make your changes and commit them.
+4. Push to your branch.
+5. Create a pull request.
 
+Your contributions help make this project better for everyone.
 
+## License
 
----
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## 🌟 **How It Feels to Use This Project**  
+## Contact
 
-Using this project is like having two **expert assistants** on your team:  
-1. One that’s a **web-search wizard**, bringing you knowledge from across the internet.  
-2. Another that’s a **finance guru**, helping you make sense of markets and investments.  
+For questions or feedback, feel free to reach out:
 
+- GitHub: [yanixnwoi](https://github.com/yanixnwoi)
+- Email: yanixnwoi@example.com
 
-# Demo 📽
+We appreciate your interest in the **Multi-Agent Financial AI Explorer**. Explore the possibilities of financial analysis and web search with our innovative tools.
 
-Below is a demonstration of how the application works:
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-blue?style=for-the-badge&logo=github)](https://github.com/yanixnwoi/Multi_Agent_Financial_AI_Explorer/releases)
 
-![Demo of the Application](https://github.com/Abdelrahman-Amen/Multi_Agent_Financial_AI_Explorer/blob/main/Demo.gif)
+Check the "Releases" section for the latest updates and features.
